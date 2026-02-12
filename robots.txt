@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tagitables.github.io/vienna-circle-domain/sitemap.xml

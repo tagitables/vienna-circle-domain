@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>First note • VC</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="wrap" style="padding-top:22px;">
+    <nav class="nav">
+      <a class="brand" href="../index.html">VC</a>
+      <div class="links">
+        <a href="../index.html#notes">Back</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <p class="kicker">Note</p>
+      <h1 style="margin-bottom:10px;">On structure and meaning</h1>
+      <p class="muted">Starter note page. Replace with your own writing.</p>
+
+      <p>
+        A useful discipline: whenever a philosophical dispute becomes unclear, attempt to rewrite the claims
+        in a form that makes their logical relations explicit. If nothing changes when the form changes,
+        the dispute may not yet have a determinate content.
+      </p>
+
+      <p class="muted tiny mono">
+        Last updated: <span id="d"></span>
+      </p>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('d').textContent = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
