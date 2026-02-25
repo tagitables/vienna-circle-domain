@@ -2,4 +2,4 @@
 
 > **Where meaning begins with structure.**
 
-https://tagitables.github.io/vienna-circle-domain/
+🔗 https://tagitables.github.io/vienna-circle-domain/
